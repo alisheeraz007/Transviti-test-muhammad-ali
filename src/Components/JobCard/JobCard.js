@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from '../Card/Card'
 
-import jobIcon from '../../assets/images/jobIcon.png'
+import jobIcon from '../../assets/images/jobIcon.webp'
 import { NavLink } from 'react-router-dom'
 
 function JobCard() {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
-import coverImg from '../../assets/images/coverImg.png'
-import profileImg from '../../assets/images/profileImg.png'
+import coverImg from '../../assets/images/coverImg.webp'
+import profileImg from '../../assets/images/profileImg.webp'
 
 import './JobsPage.scss'
 import Card from '../../Components/Card/Card'

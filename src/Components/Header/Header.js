@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 import './Header.scss'
 
-import logo from '../../assets/images/logo.png'
+import logo from '../../assets/images/logo.webp'
 
 function Header() {
   return (
