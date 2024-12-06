@@ -169,12 +169,12 @@ function JobsPage() {
               <div className='JobListings'>
                 <JobSection promted={false} title="Recommended Jobs" />
               </div>
-            </div>
 
-            <div className='JobListings'>
-                <JobSection promted={false} title="Latest Jobs" />
+              <div className='JobListings'>
+                <JobSection promted={false} title="Recommended Jobs" />
               </div>
             </div>
+
 
           </div>
         </div>
