@@ -1,0 +1,32 @@
+.findJobPageMain {
+    padding: 20px 0;
+
+    .pageLayout {
+        display: flex;
+        justify-content: space-between;
+
+        .profileInfo {
+            width: 30%;
+            max-width: 346px;
+            position: sticky;
+            top: 100px;
+            height: max-content;
+        }
+
+        .jobListingMain {
+            width: 100%;
+            max-width: 974px;
+            padding: 20px 20px;
+
+            .heading {
+                margin-bottom: 5px;
+            }
+
+            .textDiv {
+                p {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

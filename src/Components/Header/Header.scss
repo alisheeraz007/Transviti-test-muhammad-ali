@@ -1,0 +1,94 @@
+.headerMain {
+    padding: 15px 0;
+    background: #FFFFFF;
+    position: sticky;
+    top: 0;
+    z-index: 55;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .linkDiv {
+            display: flex;
+            align-items: center;
+            column-gap: 35px;
+
+            .navlinksDiv {
+                .navLinks {
+                    display: flex;
+                    align-items: center;
+                    padding: 0;
+                    margin: 0;
+                    column-gap: 25px;
+
+                    li {
+                        display: inline-block;
+
+                        a {
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #737A91;
+                            text-decoration: none;
+
+                            &.active {
+                                color: #0154AA;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .profileDiv {
+            display: flex;
+            align-items: center;
+            column-gap: 15px;
+
+            .inputDiv {
+                position: relative;
+                width: 261px;
+
+                svg {
+                    position: absolute;
+                    top: 50%;
+                    transform: translate(0, -50%);
+                    left: 20px;
+                }
+
+                input {
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: 39px;
+                    padding: 0px 20px;
+                    background: #F6F9FF;
+                    border-radius: 8px;
+                    outline: none;
+                    transition: 0.3s;
+                    border: 1px solid transparent;
+                    padding-left: 50px;
+
+                    &:hover {
+                        border: 1px solid #0154AA;
+                    }
+                }
+            }
+
+            .avatarDiv {
+                .avatar {
+                    width: 38px;
+                    height: 38px;
+                    background-image: url(../../assets/images/userAvatar.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-radius: 60px;
+                }
+            }
+        }
+    }
+}
