@@ -171,6 +171,11 @@ function JobsPage() {
               </div>
             </div>
 
+            <div className='JobListings'>
+                <JobSection promted={false} title="Latest Jobs" />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
