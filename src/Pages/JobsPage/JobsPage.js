@@ -18,10 +18,10 @@ function JobsPage() {
           <div className="profileInfo">
             <Card className="info">
               <div className="coverImg">
-                <img src={coverImg} alt='Albert Flores Cover Image' />
+                <img src={coverImg} alt='Albert Flores Cover' />
               </div>
               <div className='profileImageDiv'>
-                <img src={profileImg} alt='Albert Flores Profile Image' />
+                <img src={profileImg} alt='Albert Flores Profile' />
               </div>
               <div className='profileContent'>
                 <div className='heading'>
